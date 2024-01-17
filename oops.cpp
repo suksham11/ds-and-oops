@@ -1,4 +1,5 @@
-/*#include<iostream>
+//PROGRAM 1
+#include<iostream>
 #include<stdio.h>
 using namespace std;
 int a,b;
@@ -38,7 +39,12 @@ int main(){
     return 0;
 }*/
 
-/*#include<iostream>
+
+
+
+
+//PROGRAM 2    
+#include<iostream>
 using namespace std;
 
 class heap{
@@ -105,7 +111,10 @@ int main(){
 }
 */
 
-/*oops
+
+
+    
+// PROGRAM 3
 #include<iostream>
 using namespace std;
 
@@ -134,7 +143,9 @@ int main(){
 }
 */
 
-/*#include<iostream>
+
+//PROGRAM 4
+#include<iostream>
 using namespace std;
 
 vector<string> valid;
@@ -174,7 +185,7 @@ int main(){
 
 
 
-/*  ooops
+// oops PROGRAM 5
 #include<iostream>
 using namespace std;
 class emp{
@@ -207,9 +218,9 @@ int main(){
 }*/
 
 
-
+//PROGRAM 6
 //CHECKING A NO IS BINARY OR NOT  "OR COMPLIMENT" USING OOPS
-/*  #include<iostream>
+#include<iostream>
 #include<string>
 using namespace std;
 
@@ -270,7 +281,7 @@ int main(){
 
 
 
-/*
+// PROGRAM 7
 #include<iostream>
 using namespace std;
 class shop{
@@ -310,7 +321,9 @@ int main(){
   return 0;
 }
 */
-/*
+
+    
+//PROGRAM 8
 #include <iostream>
 using namespace std;
 class emp{
@@ -350,7 +363,10 @@ int main(){
   return 0;
 }*/
 
-/*#include<iostream>
+
+
+//PROGRAM 9
+#include<iostream>
 using namespace std;
 class orfans{
   int id;
@@ -377,8 +393,9 @@ int main(){
     return 0;
 }*/
 
+//PROGRAM 10
 //finding complex number using array
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class complex{
     int a;
@@ -411,6 +428,7 @@ class complex{
     }
     */
 
+
 //FRIEND FUNCTIONS
 /*
 properties of friend function
@@ -424,7 +442,7 @@ to access any member.
 
 */
 
-/*
+//PROGRAM 11
 #include<iostream>
 using namespace std;
 class complex{
@@ -462,7 +480,7 @@ int main(){
 }
 */
 
-/*
+/
 #include<iostream>
 using namespace std;
 
@@ -516,7 +534,7 @@ int main(){
 */
 
 
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 //forward declaration
@@ -555,7 +573,7 @@ int main(){
 
 
 /* friend function using call by value or call by refrence*/
-/*
+/
 #include<iostream>
 using namespace std;
 
@@ -612,7 +630,7 @@ int main(){
 
 
 //DEFAULT CONSTRUCTOR
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 class complex{
@@ -650,7 +668,7 @@ int main(){
 
 
 
-/*//PARAMATERIZED CONSTRUCTOR
+///PARAMATERIZED CONSTRUCTOR
 #include<iostream>
 using namespace std;
 class complex{
@@ -679,7 +697,7 @@ int main(){
 }*/
 
 
-/*
+/
 #include<iostream>
 using namespace std;
 
@@ -708,7 +726,7 @@ int main(){
 
 
 //create a function which takes two points objects and copute the distance between two points
-/*#include<iostream>
+/#include<iostream>
 #include<cmath>
 using namespace std; 
 class  point{
@@ -741,7 +759,7 @@ int main(){
 
 
 //CONSTRUCTOR OVERLOADING
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 class complex{
   int a, b;
@@ -780,7 +798,7 @@ int main(){
 
 
 //INLINE FUNCTIONS
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 inline int product(int a, int b){
@@ -821,7 +839,7 @@ int main(){
 
 
 //DEFAULT CONSTRUCTORS
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 class simple{
     int data1;
@@ -848,7 +866,7 @@ int main(){
 
 
 //dynamic constructor
-/*#include <iostream>
+/#include <iostream>
 using namespace std;
 class bankdeposit{
   int principle;
@@ -914,7 +932,7 @@ int main(){
  
 // Importing all libraries
 //copy constructor
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
  
 class number{
@@ -952,7 +970,7 @@ int main(){
 }*/
 
 //TEMPLATES IN C++ MOST IMPORTANT
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 template <class T> 
@@ -1001,7 +1019,7 @@ int main(){*/
 
 //DESTRUCTORS
 //Destructor never takes an argument nor does return any value
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 class num{
@@ -1047,7 +1065,7 @@ Note:
 
 
 
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 
@@ -1079,7 +1097,7 @@ int  main(){
 
 
 
-/* swapping
+/ swapping
 #include<iostream>
 using namespace std;
 
@@ -1130,7 +1148,7 @@ int main(){
 }*/
 
 
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 class{
 public:
@@ -1148,7 +1166,7 @@ public:
 };*/
 
 //copy constructor
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 
 class number{
@@ -1184,7 +1202,7 @@ int main(){
 }*/
 
 //operator overloading using finding complex numbers
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 class  complex{ 
       int a , b;
@@ -1227,7 +1245,7 @@ reusing classes saves a time or money
 reusing already tested and debugged class will save a lot of effort of developing and debugging the same thing again*/
 
 //derived class syntax
-/*
+/
 class {{derived-class-name}} : {{visibility-mode}}  {{base-class-name}}
 {
   class members/method/etc
@@ -1239,7 +1257,7 @@ visibility mode:
 }*/
 
 //PROGRAMMER INHERITING FEATURES FROM EMPLOYEE CLASS
-/*#include<iostream>
+/#include<iostream>
 using namespace std;
 //base class
 class employee{
@@ -1278,7 +1296,7 @@ int main(){
 
 
 //SINGLE INHERITANCE
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class base{
     int data1;
@@ -1331,7 +1349,7 @@ int main(){
 
 
 /*virtual functions*/
-/*
+/
 #include<iostream>
 using namespace std;
 
@@ -1340,7 +1358,7 @@ student --> test[done]
 student --> sports
 test ---> result
 */ 
-/*
+/
 class student{
   protected: 
     int roll_no;
@@ -1402,7 +1420,7 @@ int main(){
   return 0;
 }*/
 
-/*PROECTED IN DERIVED CLASS inheritance 
+/PROECTED IN DERIVED CLASS inheritance 
 #include<iostream>
 using namespace std;
 class base{
@@ -1430,7 +1448,7 @@ int main(){
 }*/
 
 //polymorphism
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class baseclass{
     public:
@@ -1459,7 +1477,7 @@ int main(){
   return 0;
 }*/
 
-/*
+
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -1508,7 +1526,7 @@ int main() {
 }
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class complex{
     public:
@@ -1533,7 +1551,7 @@ int main(){
 
 }*/
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 template <class t>
@@ -1553,7 +1571,7 @@ int main(){
 
 }*/
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class test{
      private:
