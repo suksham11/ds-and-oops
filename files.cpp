@@ -9,7 +9,7 @@ ofstream
 1. using the constructor
 2. using the member function open() of the class
 */
-/*#include<iostream>
+#include<iostream>
 #include<fstream>
 using namespace std;
 
@@ -31,6 +31,10 @@ int main(){
     return 0;
 }*/
 
+
+
+
+    
 
 #include<iostream>
 #include<fstream>
