@@ -1,4 +1,4 @@
-/* program to delete element from an array
+// program to delete element from an array
 #include<stdio.h>
 int main(){
    int arr[100] , pos , i , n;
@@ -54,7 +54,7 @@ int main(){
 
 
 
-/*count no of nodes in linkedlist
+//count no of nodes in linkedlist
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
@@ -95,8 +95,11 @@ int main(){
 
 
 
+
+   
+
 //finding minimum and maximum element in linked list
-/*#include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 struct node{
     int data;
@@ -143,6 +146,11 @@ int main(){
 }*/
 
 
+
+
+
+   
+   
 // perform operations on linkedlist
 #include<stdio.h>
 struct node{
