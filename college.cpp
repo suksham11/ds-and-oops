@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int n , m;
@@ -13,7 +13,8 @@ int main(){
 }*/
 
 
-/*#include<iostream>
+
+#include<iostream>
 using namespace std;
 class student{
     public:
@@ -30,7 +31,10 @@ int main(){
     return 0;
 }*/
 
-/*#include <iostream>
+
+    
+    
+#include <iostream>
 using namespace std;
 class Geeks {
     // Access specifier
