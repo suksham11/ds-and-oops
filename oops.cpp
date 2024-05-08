@@ -1,4 +1,4 @@
-//PROGRAM 1
+//PROGRAM 1 - performs the corresponding arithmetic operation
 #include<iostream>
 #include<stdio.h>
 using namespace std;
@@ -43,7 +43,7 @@ int main(){
 
 
 
-//PROGRAM 2    
+//PROGRAM 2 -  Implements a max heap data structure using an array. It allows insertion and deletion operations on the heap.
 #include<iostream>
 using namespace std;
 
@@ -114,7 +114,7 @@ int main(){
 
 
     
-// PROGRAM 3
+// PROGRAM 3 - Defines a class addtwonum to add two numbers and demonstrates the usage of friend function to access private members of the class.
 #include<iostream>
 using namespace std;
 
@@ -144,7 +144,7 @@ int main(){
 */
 
 
-//PROGRAM 4
+//PROGRAM 4 - Generates all possible valid combinations of parentheses for a given value of 'n' using recursion.
 #include<iostream>
 using namespace std;
 
@@ -185,7 +185,8 @@ int main(){
 
 
 
-// oops PROGRAM 5
+// PROGRAM 5 - Demonstrates basic object-oriented programming (OOP) concepts by defining a class emp with private and public members 
+//and accessing them through member functions.
 #include<iostream>
 using namespace std;
 class emp{
@@ -193,7 +194,6 @@ class emp{
         int a,b,c;
      public:
         int d , e;
-        
         void setdata(int a1, int b1, int c1); //declaring  
         void getdata(){
         cout<<"the value of a is"<<a<<endl;
@@ -208,7 +208,6 @@ void emp :: setdata(int a1, int b1, int c1){
    b = b1;
    c = c1;
 }
-
 int main(){
     emp yash;
     yash.setdata(23,112,18); //we assigning value of a b c because this is private
@@ -218,8 +217,9 @@ int main(){
 }*/
 
 
-//PROGRAM 6
-//CHECKING A NO IS BINARY OR NOT  "OR COMPLIMENT" USING OOPS
+
+    
+//PROGRAM 6 - CHECKING A NO IS BINARY OR NOT  "OR COMPLIMENT" USING OOPS
 #include<iostream>
 #include<string>
 using namespace std;
@@ -281,20 +281,18 @@ int main(){
 
 
 
-// PROGRAM 7
+
+    
+// PROGRAM 7 - Defines a class shop to store item IDs and their prices, allowing setting and displaying of item prices.
 #include<iostream>
 using namespace std;
 class shop{
      int itemid[100];
      int itemprice[100];
      int count = 0;
-
      public:
         void setprice(void);
         void displayprice(void);
-          
-      
-
 };
 
 void shop :: setprice(void){
@@ -322,8 +320,10 @@ int main(){
 }
 */
 
+
+
     
-//PROGRAM 8
+//PROGRAM 8 - Illustrates the use of static data member and member functions in a class to maintain a count of objects created from the class.
 #include <iostream>
 using namespace std;
 class emp{
@@ -365,7 +365,7 @@ int main(){
 
 
 
-//PROGRAM 9
+//PROGRAM 9 - Creates an array of objects of class orfans to store employee IDs and sets their salaries.
 #include<iostream>
 using namespace std;
 class orfans{
@@ -393,8 +393,10 @@ int main(){
     return 0;
 }*/
 
-//PROGRAM 10
-//finding complex number using array
+
+
+    
+//PROGRAM 10 - finding complex number using array
 #include<iostream>
 using namespace std;
 class complex{
@@ -429,6 +431,10 @@ class complex{
     */
 
 
+
+
+
+         
 //FRIEND FUNCTIONS
 /*
 properties of friend function
@@ -442,7 +448,7 @@ to access any member.
 
 */
 
-//PROGRAM 11
+//PROGRAM 11  - demonstrates how to use classes, member functions, friend functions, and operator overloading to work with complex numbers in C++
 #include<iostream>
 using namespace std;
 class complex{
@@ -480,7 +486,9 @@ int main(){
 }
 */
 
-/
+
+
+// program 12  - calculator to perform arithmetic operations on them.
 #include<iostream>
 using namespace std;
 
@@ -572,8 +580,9 @@ int main(){
 }*/
 
 
+
+    
 /* friend function using call by value or call by refrence*/
-/
 #include<iostream>
 using namespace std;
 
